@@ -1,0 +1,38 @@
+
+
+#face{
+    height: 200px;
+    width: 200px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 2px;
+}
+#mouth{
+    width: 100px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 150px;
+    left: 57px;
+    
+
+
+}
+#left,#right{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 57px;
+    top: 50px;
+
+    
+
+}
+#right{
+    left: 135px;
+}

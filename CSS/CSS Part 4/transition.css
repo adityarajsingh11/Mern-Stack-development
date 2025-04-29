@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px black solid;
+    margin: 0 auto;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+div:hover{
+    background-color: brown;
+    border-radius: 50%;
+}

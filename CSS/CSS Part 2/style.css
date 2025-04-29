@@ -1,0 +1,42 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+h1{
+    color: #b92b27;
+}
+#login{
+    background-color: aquamarine;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: bisque;
+}
+ /* descendant selector */
+ p a{
+    color: rgb(27, 146, 140);
+ }
+ nav ul li{
+    color: blueviolet;
+ }
+ p+h3{
+    text-decoration:underline;
+ }
+ /* sibling */
+ .upvote + button{
+    background-color: aqua;
+    color: rgb(189, 107, 151);
+ }
+ /* child combinator */
+ div > input{
+    background-color: cadetblue;
+ }
+ /* attibute selector */
+input[type="text"] {
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}

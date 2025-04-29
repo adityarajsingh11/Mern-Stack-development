@@ -1,0 +1,55 @@
+.heading{
+    color: chocolate;
+}
+.box{
+    background-color: aquamarine;
+    color: crimson;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+
+    /* animation-name: fontanimation; */
+    /* animation-name: coloranimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+
+    /* animation shorthand */
+    animation: coloranimate 2s ease-in 0s 3 alternate;
+
+    
+
+}
+@keyframes fontanimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+
+}
+@keyframes coloranimate{
+    0%{
+        background-color: chartreuse;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    80%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: deeppink;
+    }
+}
+/* @keyframes coloranimate{
+    from{
+        background-color: burlywood;
+    }
+    to{
+        background-color: chartreuse;
+    }
+} */

@@ -1,0 +1,1 @@
+let student = ["aditya","aman","sonam"];

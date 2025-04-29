@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+    
+}
+#third{
+    display: none;
+}

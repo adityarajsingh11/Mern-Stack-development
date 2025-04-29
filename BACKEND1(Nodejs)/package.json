@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "random-words": "^2.0.1"
+  },
+  "name": "backendpart1",
+  "version": "1.0.0",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AdityaSingh",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

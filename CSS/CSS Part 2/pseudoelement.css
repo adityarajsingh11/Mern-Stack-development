@@ -1,0 +1,16 @@
+h1{
+    color:brown
+}
+p{
+    color: burlywood;
+}
+h1::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: blueviolet;
+}
+p::selection{
+    color:darkblue;
+    background-color: fuchsia;
+}

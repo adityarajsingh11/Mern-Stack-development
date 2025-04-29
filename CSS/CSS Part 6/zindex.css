@@ -1,0 +1,24 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+    margin: 10px;
+
+}
+
+#one{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 6;
+    
+
+}
+#second{
+    background-color:gold;
+    position: relative;
+    z-index: 7;
+    bottom: 50px;
+    
+}
+    

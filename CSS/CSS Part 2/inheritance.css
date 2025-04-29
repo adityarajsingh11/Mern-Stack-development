@@ -1,0 +1,12 @@
+div{
+    background-color: blanchedalmond;
+    color: mediumvioletred;
+}
+button{
+    background-color: inherit;
+}
+input{
+    background-color: inherit;
+}
+
+/* we can change the property of element according tp need */

@@ -1,0 +1,35 @@
+section{
+    margin-top: 100px;
+    
+}
+div{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    border: 2px black solid;
+   
+    text-align: center;
+
+}
+div:nth-of-type(2n){
+    
+   
+    
+    background-color: bisque;
+}
+div:nth-of-type(2n+1){
+    
+    background-color: burlywood;
+}
+#first{
+    transform: rotate(45deg);
+}
+#second{
+    transform: scale(0.5);
+}
+#third{
+    transform: translateX(100px);
+}
+#four{
+    transform: skew(-30deg);
+}

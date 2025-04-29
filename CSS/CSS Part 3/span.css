@@ -1,0 +1,13 @@
+span{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: red;
+
+    /* height and width nhi hogi */
+    height: 100px;
+    width: 50px;
+
+    padding: 50px;
+    /* padding set left and right */
+}

@@ -1,0 +1,20 @@
+h1:hover{
+    color: red;
+    background-color: aquamarine;
+
+}
+button:active{
+    background-color: bisque;
+    color: blue;
+}
+input[type="radio"]:checked + label{
+    color: rgb(100, 0, 12);
+    
+}
+p:active{
+    color:aquamarine;
+    font-weight: bold;
+}
+input[type="checkbox"]:checked + label{
+    color:blue;
+}

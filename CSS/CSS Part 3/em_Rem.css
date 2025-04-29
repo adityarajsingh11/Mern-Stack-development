@@ -1,0 +1,14 @@
+#first{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: aquamarine;
+}
+#second{
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+    padding: 3em;
+    background-color: bisque;
+}
