@@ -1,0 +1,13 @@
+.WeatherApp {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  min-height: 100vh;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.WeatherApp h2 {
+  color: #1976d2;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}

@@ -1,0 +1,125 @@
+/* TodoList.css */
+
+.todo-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.todo-title {
+  text-align: center;
+  color: #333;
+}
+
+.todo-input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.todo-add-btn {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-subtitle {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.todo-task {
+  font-size: 16px;
+  flex: 1;
+  color: #333;
+}
+
+.todo-task.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.todo-btn {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-done {
+  background-color: #28a745;
+}
+
+.btn-upper {
+  background-color: #17a2b8;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.todo-footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.todo-footer-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-uppercase-all {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.btn-mark-all {
+  background-color: #ffc107;
+  color: #333;
+}
